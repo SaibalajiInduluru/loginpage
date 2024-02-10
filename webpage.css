@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://www.shutterstock.com/image-photo/beautiful-blurred-background-image-spring-260nw-2213392711.jpg");
+}
+nav{
+    display: flex;
+    padding: 2% 6% ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.a{
+    flex: 1;
+    text-align: right;
+}
+.a ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 8px 12px;
+      position: relative;
+}
+.a ul li a{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.b{
+    font-size: 28px;
+    color: black;
+   
+}
+.d{
+    font-size: 40px;
+    padding-left: 7%;
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+.e{
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+.f{
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+.g{
+    padding-left: 7%;
+    padding-bottom: 2%;
+}
+.h{
+    padding-left: 7%;
+    padding-bottom: 2%;
+    text-decoration: underline;
+}
+.i{
+    padding-left: 7%;
+    padding-top: 3%;
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+.j{
+    padding-left: 7%;
+}
+.form{
+    width: 240px;
+    height: 370px;
+    background-color: rgba(18, 60, 18, 0.222);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+   padding: 22px;
+    padding-bottom: 2px;
+    margin-top: 200px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid;
+    border-top: none;
+    border-left: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input focus{
+    outline: none;
+}
+.btn1{
+    width: 240px;
+    height: 40px;
+    
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+    border-color: transparent;
+    background-color: transparent;
+}
